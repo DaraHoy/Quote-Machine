@@ -1,0 +1,15 @@
+#quoteBox{
+    margin-top: 30vh;
+    background-color: white;
+
+    border: 4px solid;
+    border-color: gold;
+    border-radius: 2px;
+}
+
+#btnBox{
+    margin: 20px;
+}
+body{
+    background-color: #EC1C3D;
+}
