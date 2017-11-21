@@ -11,7 +11,7 @@ function loadText() {
         if (this.status == 200) {
             var data = JSON.parse(this.responseText); // JSON.parse translates the object
             var quote = "";
-            quote += '"' + data.quote + '"' + '<br>' + ' -' + data.author;
+            quote += '"' + data.quote + '"' + '<br>' + ' -' + data.author
             document.getElementById('quote').innerHTML = quote;
         }
     }
